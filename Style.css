@@ -33,7 +33,7 @@ header {
 #main {
     position: relative;
     z-index: 1;
-    width: 624px;
+    width: auto;
     height: 732px;
 }
 
@@ -45,7 +45,7 @@ header {
 }
 
 #box2 {
-    width: 624px;
+    width: auto;
     height: 732px;
     display: flex;
     flex-direction: row;
@@ -102,9 +102,3 @@ footer {
     height: auto;
     text-align : center;
 }
-
-@media screen and(max-width: 624px) {
-    html {
-        transform: scale(0.5);
-    }
-    }
