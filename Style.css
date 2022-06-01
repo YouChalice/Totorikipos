@@ -1,0 +1,146 @@
+/*Reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,blockquote,th,td,a,img {
+    margin:0;
+    padding:0;
+    cursor:default;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+/*main*/
+body{
+	background-color:#fcfbdc;
+    width: 100%;
+    max-width: 1248px;
+    margin: auto;
+}
+
+#main {
+    position: relative;
+    z-index: 1;
+    width: 624px;
+}
+
+#works {
+    position: absolute;
+    z-index: 10;
+    left: 156px;
+    top: 632px;
+}
+
+img.button {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    text-align : center;
+}
+
+#head {
+    position: relative;
+}
+
+#news {
+    width: 312;
+    height: 734;
+    padding: auto;
+}
+
+#YouChalice {
+    position: relative;
+    z-index: 4;
+    top: 82px;
+    left: 10px;
+}
+
+img.NewsBack {
+    position: absolute;
+    z-index: 2;
+}
+
+li {
+    position: relative;
+    z-index: 4;
+    top: 94px;
+    left: 8px;
+    height: 100px;
+}
+
+img.LinkBack {
+    position: absolute;
+    z-index: 1;
+}
+
+#free {
+    height: 330px;
+}
+
+#side2 {
+    position: relative;
+    width: 312;
+    left: 20px;
+    float: left;
+}
+
+img.button{
+    cursor: pointer;
+}
+
+/*ウィンドウ幅が1248px以上の場合に適用(PC向け)*/
+@media screen and (min-width: 1248px) {
+    #gameFrame {
+        float: left;
+    }
+    
+    #news {
+        float: left;
+    }
+
+    #side2 {
+        float: left;
+    }
+}
+
+
+/*ウィンドウ幅が最大1248pxまでの場合に適用(タブレット向け)*/
+/*@media screen and (max-width: 1248px) {
+    #gameFrame {
+        float: left;
+    }
+    
+    #news {
+        float: left;
+    }
+
+    #free {
+        display:none;
+    }
+
+    img.linkBack {
+        display:none !important;
+    }
+
+    li {
+        float: left; 
+    }
+}*/
+
+
+/*ウィンドウ幅が最大935pxまでの場合に適用(スマホ向け)*/
+@media screen and (max-width: 935px) {
+    #gameFrame {
+        float: left;
+    }
+    
+    #news {
+        float: left;
+    }
+
+    #side2 {
+        float: left;
+    }
+    
+}
