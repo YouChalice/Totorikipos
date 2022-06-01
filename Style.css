@@ -1,0 +1,104 @@
+/*Reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,blockquote,th,td,a,img {
+    margin:0;
+    padding:0;
+    cursor:default;
+}
+
+ul,ol,li{
+    list-style:none;
+}
+
+img.button {
+    cursor: pointer;
+}
+
+body{
+	background-color:#fcfbdc;
+}
+
+header {
+    width: 100%;
+    height: 84px;
+    text-align : center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main {
+    position: relative;
+    z-index: 1;
+    width: 624px;
+    height: 732px;
+}
+
+#works {
+    position: absolute;
+    z-index: 10;
+    left: 156px;
+    top: 632px;
+}
+
+#box2 {
+    width: 624px;
+    height: 732px;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    width: 311px;
+}
+
+#news {
+    position: relative;
+}
+
+.NewsBack,.YouChalice {
+    position: absolute;
+}
+
+.YouChalice {
+    top: 82px;
+    left: 10px;
+}
+
+#side2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#free{
+    width: 313px;
+    height: 330px;
+}
+
+li{
+    width: 298px;
+    height: 100px;
+    margin:0 8px;
+}
+
+#link {
+    float: left;
+    position: relative;
+}
+
+.LinkBack, .LinkCo {
+    position: absolute;
+}
+
+.LinkCo {
+    top: 94px;
+}
+
+footer {
+    width: auto;
+    height: auto;
+    text-align : center;
+}
