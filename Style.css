@@ -130,17 +130,17 @@ img.button{
 
 
 /*ウィンドウ幅が最大935pxまでの場合に適用(スマホ向け)*/
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 1248px) {
     #gameFrame {
         float: left;
     }
     
     #news {
-        float: left;
+        display: inline-block;
     }
 
     #side2 {
-        float: left;
+        display: inline-block;
     }
     
 }
