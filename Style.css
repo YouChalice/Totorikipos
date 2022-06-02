@@ -28,8 +28,6 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    max-width: 1248px;
 }
 
 #main {
@@ -47,6 +45,7 @@ header {
 }
 
 #box2 {
+    width: auto;
     height: 732px;
     display: flex;
     flex-direction: row;
@@ -102,25 +101,4 @@ footer {
     width: auto;
     height: auto;
     text-align : center;
-}
-
-
-@media (min-width: 1248px) {
-    #gameframe{
-        width: 50%;
-    }
-
-    #box2 {
-        width: 50%;
-    }
-}
-
-@media (max-width: 1247px) {
-    #gameframe{
-        width: 100%;
-    }
-
-    #box2 {
-        width: 100%;
-    }
 }
