@@ -30,6 +30,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
+    box-sizing: border-box;
 }
 
 #main {
