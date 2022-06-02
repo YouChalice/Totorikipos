@@ -34,9 +34,20 @@ header {
 }
 
 #main {
-    position: relative;
+    position: absolute;
     z-index: 1;
     max-width: 624px;
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    opacity: 0; 
+    z-index: 2; 
+    position: absolute; 
+    margin: auto; 
+    inset: 0px; 
+    width: 624px; 
     height: 732px;
 }
 
