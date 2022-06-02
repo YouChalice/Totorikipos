@@ -100,7 +100,8 @@ li{
 }
 
 footer {
-    width: auto;
+    max-width: 1260px;
+    width: 100%;
     height: auto;
-    text-align : center;
+    text-align : right;
 }
