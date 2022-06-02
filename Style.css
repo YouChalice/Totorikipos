@@ -49,6 +49,7 @@ header {
     height: 732px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .flex-item {
