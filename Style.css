@@ -36,7 +36,6 @@ header {
     position: relative;
     z-index: 1;
     max-width: 624px;
-    width: 50%;
     height: 732px;
 }
 
@@ -48,8 +47,7 @@ header {
 }
 
 #box2 {
-    width: 50%;
-    max-width: 624px;
+    width: auto;
     height: 732px;
     display: flex;
     flex-direction: row;
