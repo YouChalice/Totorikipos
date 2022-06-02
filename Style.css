@@ -28,6 +28,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
 }
 
 #main {
