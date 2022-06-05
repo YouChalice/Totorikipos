@@ -87,7 +87,6 @@ header {
 li{
     width: 232px;
     height: 77px;
-    margin:0 8px;
 }
 
 #link {
@@ -101,8 +100,9 @@ li{
 }
 
 .LinkCo {
+    width: 232px;
     top: 70px;
-    left: -4px;
+    left: 4px;
 }
 
 footer {
