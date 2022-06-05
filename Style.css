@@ -110,11 +110,3 @@ footer {
     height: auto;
     text-align : center;
 }
-
-
-@media screen and (max-width: 623px) {
-    #container {
-        justify-content:start;
-    }
-    
-}
