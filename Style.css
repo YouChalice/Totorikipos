@@ -39,9 +39,11 @@ header {
 
 #works {
     position: absolute;
+    width: 120px;
+    height: 77px;
     z-index: 10;
-    left: 156px;
-    top: 632px;
+    left: 120px;
+    top: 550px;
 }
 
 #box2 {
@@ -83,6 +85,8 @@ header {
 }
 
 li{
+    top: 70px;
+    left: 7px;
     width: 232px;
     height: 77px;
     margin:0 8px;
