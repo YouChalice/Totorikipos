@@ -34,7 +34,7 @@ header {
     position: relative;
     z-index: 1;
     width: auto;
-    height: 732px;
+    height: 563px;
 }
 
 #works {
@@ -46,17 +46,21 @@ header {
 
 #box2 {
     width: auto;
-    height: 732px;
+    height: 563px;
     display: flex;
     flex-direction: row;
 }
 
 .flex-item {
-    width: 311px;
+    width: 240px;
 }
 
 #news {
     position: relative;
+}
+
+.NewsBack {
+    width: 240px;
 }
 
 .NewsBack,.YouChalice {
@@ -64,7 +68,7 @@ header {
 }
 
 .YouChalice {
-    top: 82px;
+    top: 70px;
     left: 10px;
 }
 
@@ -73,14 +77,14 @@ header {
     flex-direction: column;
 }
 
-#free{
-    width: 313px;
-    height: 330px;
+#free, .free{
+    width: 240px;
+    height: 256px;
 }
 
 li{
-    width: 298px;
-    height: 100px;
+    width: 232px;
+    height: 77px;
     margin:0 8px;
 }
 
@@ -90,11 +94,12 @@ li{
 }
 
 .LinkBack, .LinkCo {
+    width: 240px;
     position: absolute;
 }
 
 .LinkCo {
-    top: 94px;
+    top: 100px;
 }
 
 footer {
@@ -108,4 +113,5 @@ footer {
     #container {
         justify-content:start;
     }
+    
 }
